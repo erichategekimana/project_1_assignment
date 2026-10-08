@@ -22,8 +22,8 @@ const char* classify_water(double index) {
 
 int main(void) {
     // 1. Declare sensor reading variables
-    double temperature = 27.4;  // Degrees Celsius (°C)
-    double turbidity = 12.0;    // Nephelometric Turbidity Units (NTU)
+    double temperature = 10.4;  // Degrees Celsius (°C)
+    double turbidity = 25.0;    // Nephelometric Turbidity Units (NTU)
 
     // 2 & 3. Compute index and classification using functions
     double index = calculate_index(temperature, turbidity);
