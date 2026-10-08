@@ -55,7 +55,7 @@ int recursive_sum(const int arr[], int size) {
 
 int main(void) {
     // Array of route distances
-    int distances[] = {12, 25, 18, 40, 15, 30};
+    int distances[] = {12, 95, 13, 70, 15, 31};
     int n = sizeof(distances) / sizeof(distances[0]);
     int threshold = 20;
 
